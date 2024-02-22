@@ -1,0 +1,96 @@
+.auth-form-container1 {
+    text-align: center;
+    display: block;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+  }
+  
+  .auth-form-container,
+  .login-form {
+    display: block;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container1 {
+      padding: 10px 0px 20px 10px;
+    }
+  }
+  
+  .l1 {
+    font-size: 2rem;
+    color: black;
+    margin: 160px 0px 20px 20px;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .em {
+    color: black;
+    text-align: center;
+    padding-left: 35px;
+    margin: 10px 290px 0px 0px;
+  }
+  
+  .pa {
+    color: black;
+    text-align: center;
+    padding-left: 35px;
+    margin: 10px 260px 0px 0px;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 10%;
+  }
+  
+  .i1 {
+    margin: 10px 0px 10px 0px;
+    padding: 20px 20px 20px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .button1 {
+    border: none;
+    background-color: rgb(247, 8, 8);
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+  }
+  
+  .link-btn1 {
+    background: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+  }
+  
+  /* .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  @media (max-width: 450px) {
+    .h-custom {
+    height: 100%;
+    }
+  } */
+  
