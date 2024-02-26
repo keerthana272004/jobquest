@@ -1,0 +1,77 @@
+.auth-form-container1 {
+    text-align: center;
+    display: block;
+    width:fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50px;
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+  
+  .auth-form-container,
+  .login-form {
+    display: block;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 300px) {
+    .auth-form-container1 {
+      padding: 10px 0px 20px 10px;
+    }
+  }
+  
+  .l1 {
+    font-size: 2rem;
+    color: black;
+    margin: 10px 0px 20px 20px;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .em {
+    color: black;
+    text-align: center;
+    padding-left: 35px;
+    margin: 10px 290px 0px 0px;
+  }
+  
+  .pa {
+    color: black;
+    text-align: center;
+    padding-left: 35px;
+    margin: 10px 260px 0px 0px;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 10%;
+  }
+  
+  .i1 {
+    margin: 10px 0px 10px 0px;
+    padding: 20px 20px 20px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: rgb(70, 68, 68) ;
+    width: 300px;
+  }
+  
+  .button1 {
+    border-width: 2px;
+    border-color: rgb(70, 68, 68);
+    /* background-color: rgb(196, 110, 110); */
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(42, 113, 151);
+    width: fit-content;
+  }
+  

@@ -1,0 +1,106 @@
+.profile-container {
+    max-width: 600px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    /* margin-left: 650px; */
+} 
+.admin-profile-header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 90px;
+    margin-left: 520px;
+    text-align: center;
+    color: #3498db;
+    font-size: xx-large;
+    
+  }
+  .profile-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .user-details {
+    margin-top: 20px;
+    /* padding-bottom: 20px; */
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-edit {
+    border-width: 2px;
+    border-color: rgb(70, 68, 68);
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(42, 113, 151);
+    width: fit-content;
+  }
+  
+  .btn-save {
+    border-width: 2px;
+    background-color: rgb(44, 132, 102);
+    border-color: rgb(70, 68, 68);
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+  }
+  
+  .btn-cancel {
+    border-width: 2px;
+background-color: rgb(216, 102, 121);
+    border-color: rgb(70, 68, 68);
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+  }
+  
+  .btn-edit:hover,
+  .btn-save:hover,
+  .btn-cancel:hover {
+    opacity: 0.8;
+  }
+  
+  .profile-container::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .profile-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .profile-container::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+    border-radius: 10px;
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 768px) {
+    .profile-container {
+      max-width: 100%;
+    }
+  } 
