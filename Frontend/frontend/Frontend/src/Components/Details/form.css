@@ -1,0 +1,62 @@
+
+
+.registration-form {
+  margin-top: 50px;
+  max-width: 800px;
+  margin: 0 auto; /* This line is redundant and overridden by the previous margin-top declaration */
+}
+
+.for {
+  margin-top: 40px;
+  
+}
+
+.get-done {
+  margin-top: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-details,
+.identity-details {
+  width: 48%; /* Adjusted width for better spacing */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  color: rgb(30, 181, 227);
+}
+
+.in2 {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(53, 58, 59);
+  /* border-color: black; */
+}
+
+.in1 {
+  width: calc(100% - 16px); /* Adjusted width and padding for better input alignment */
+  padding: 8px;
+  margin-bottom: 10px;
+  /* border-color: black; */
+  /* border: 1px; */
+  /* border-width: 2px; */
+  color: rgb(95, 97, 98);
+}
+
+.btn-frm {
+  border-width: 2px;
+  border-color: rgb(70, 68, 68);
+  /* background-color: rgb(196, 110, 110); */
+  padding: 10px 20px 10px 20px;
+  margin: 20px 0px 20px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(42, 113, 151);
+  width: fit-content;
+
+  margin-left: 45%;
+}

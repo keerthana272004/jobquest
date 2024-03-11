@@ -1,0 +1,150 @@
+
+.landing-page {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    padding-top:50px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    color: #060000;
+    padding: 20px 0;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image img {
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .feature {
+    flex-basis: 30%;
+    margin: 0 10px;
+  }
+  
+  footer {
+    width: 100%;
+    margin-right: 550px;
+    padding-top: 50px;
+    color: #000000;
+    padding: rgb(0, 0, 0)px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .reserve{
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .bt-app{
+    border-width: 2px;
+    border-color: rgb(70, 68, 68);
+    /* background-color: rgb(196, 110, 110); */
+    padding: 10px 20px 10px 20px;
+    margin: 20px 20px 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(42, 113, 151);
+    width: fit-content;
+  }
+  .bt-app1{
+    border-width: 2px;
+    border-color: rgb(70, 68, 68);
+    /* background-color: rgb(196, 110, 110); */
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(42, 113, 151);
+    width: fit-content;
+  }
+
+  .top-hero{
+    padding-top: 20px;
+  }
+
+  .para{
+    padding-top: 20px;
+  }
+
+  .head{
+    font-size: 2.5rem;
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:5% 0% 5% 0%;
+  
+}
+
+.container .content {
+  flex: 1;
+}
+
+.container .image {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container .content,
+  .container .image {
+    flex: none;
+  }
+}
+body {
+    background-image: url('src\assets\401be19115aefd10f7c7f9c51036e94c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .logoimg{
+	width: 50px;
+	height: 50px;
+  }
+  .navbar-logo1{
+	color: rgb(30, 181, 227);
+	justify-self: start;
+	margin-left: 200px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	display: flex;
+    margin-top: 150px;
+	align-items: center;
+  }
+
+ .des{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  color:rgb(69, 74, 75);
+ }

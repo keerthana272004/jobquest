@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Protest+Revolution&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/* Layer 1: Navbar styles */
+.sidebar1 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c3deec;
+  padding: 10px 20px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* Layer 2: Styles for the menu icon */
+.side-menu1 {
+  color: #000000;
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+/* Layer 2: Styles for the left section of the navbar */
+.sidebar-left,
+.sidebar-right {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+/* Layer 3: Styles for the navbar brand */
+.sidebar-left p {
+  position: relative;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+/* Layer 3: Styles for the span within the navbar brand */
+.sidebar-left span {
+  color: orangered;
+}
+
+/* Layer 4: Styles for the navbar center section */
+.sidebar-center {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 16px;
+  gap: 30px;
+  width: 50%;
+  height: 100%;
+}
+
+/* Layer 5: Styles for the list items in the navbar center */
+.sidebar-center li {
+  font-size: 18px;
+}
+
+/* Layer 6: Styles for the links in the navbar center */
+.sidebar-center li a {
+  color: #0a0908;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: box-shadow 300ms ease-in-out;
+}
+
+/* Layer 6: Hover styles for the links in the navbar center */
+.sidebar-center li a:hover {
+  background-color: orangered;
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Layer 7: Styles for the profile icon */
+.profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 30px;
+  right: 30px;
+}
+
+/* Layer 7: Hover styles for the profile icon */
+.profile-icon:hover {
+  color: orangered;
+}
+
+/* Layer 8: Styles for the sidebar */
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: #fffefc;
+  transition: left 0.3s ease;
+  z-index: 1;
+  overflow-y: auto;
+  /* padding-top: 30px; */
+}
+
+/* Layer 9: Styles for the open sidebar */
+.sidebar.open {
+  left: 0;
+}
+
+/* Layer 10: Styles for the sidebar content */
+/* .sidebar-content {
+  /* padding: 40px; */
+/* } */ */
+
+/* Layer 11: Styles for the sidebar items */
+.sidebar-items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Layer 12: Styles for the elements within sidebar items */
+.sidebar-items > * {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+/* Layer 13: Styles for the sidebar links */
+.sidebar-items a {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Layer 13: Hover styles for the sidebar links */
+.sidebar-items a:hover {
+  color: #409ec3;
+}
+
+/* Layer 14: Styles for the close sidebar button */
+.close-sidebar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Layer 15: Hover styles for the close sidebar button */
+.close-sidebar:hover {
+  color: #ccc;
+}
+
+/* Layer 16: Styles for the sidebar profile section */
+.sidebar-profile {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Layer 17: Styles for the sidebar profile image */
+.sidebar-items-img {
+  margin-left: 10px;
+  margin-bottom: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* Layer 18: Styles for the sidebar profile name */
+.profile-name {
+  position: relative;
+  bottom: 30px;
+  font-size: 24px;
+  color: orangered;
+}
+
+/* Layer 19: Styles for the right section of the navbar */
+.sidebar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Layer 20: Styles for the logout button within profile dropdown */
+.side-logout-button {
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 28px;
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* Layer 21: Hover styles for the logout button within profile dropdown */
+/* .nav-logout-button:hover {
+  background-color: orangered;
+} */
+
+/* Layer 22: Styles for the profile dropdown */
+.profile-dropdown {
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.loo {
+	color: rgb(30, 181, 227);
+	justify-self: start;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+  }

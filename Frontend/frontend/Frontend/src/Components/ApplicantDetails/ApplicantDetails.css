@@ -1,0 +1,95 @@
+/* AdminProfile.css */
+
+.applicant-profile-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .applicant-profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .applicant-profile-header {
+    font-size: 24px;
+    color:  rgb(30, 181, 227);
+    
+  }
+  
+  .logout-button {
+    border-width: 2px;
+    border-color: rgb(70, 68, 68);
+    /* background-color: rgb(196, 110, 110); */
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 20px 10px;
+    margin-left: 600px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(42, 113, 151);
+    width: fit-content;
+    font-size: medium;
+  }
+  
+  .applicant-profile-content {
+    display: flex;
+  }
+  
+  .applicant-table {
+    /* flex: 0.5; */
+    width: 100%;
+    color: #188fca;
+    font-size: larger;
+  }
+  
+  .applicant-table h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #188fca;
+    width: 90%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  
+  th, td {
+    padding: 10px 20px 20px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .delete-button2,.update-button,.cancel-button {
+    border-width: 2px;
+    border-color: rgb(70, 68, 68);
+    /* background-color: rgb(196, 110, 110); */
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 20px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(42, 113, 151);
+    width: fit-content;
+  }
+  .delete-button2:hover{
+    background-color: #c9d1c9;
+  }
+  
+.applicant-details-header{
+  font-size: 24px;
+    color:  rgb(30, 181, 227);
+    margin-top: 40px;
+}
+.appl{
+  color: #333;
+}
+
